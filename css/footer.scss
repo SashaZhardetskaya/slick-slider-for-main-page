@@ -1,0 +1,70 @@
+
+.footer {
+	display: block;
+	height: 143px;
+	background: red;
+}
+
+.container--footer-top {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	color: #fff;
+	height: calc(143px - 50px;);
+}
+
+.footer-logo {
+	color: #fff;
+	font-size: 20px;
+	flex-grow: 1;
+}
+
+.footer-nav {
+	li {
+		display: inline;
+		color: #fff;
+		font-size: 15px;
+		margin: 20px;
+	}
+	flex-grow: 5;
+}
+.footer-contacts {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-grow: 2;
+	font-size: 15px;
+	i {
+		margin: 6px;
+	}
+}
+
+
+
+
+.footer__down-block {
+	background: transparentize(#6e0da5,.4);
+	height: 50px;
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+}
+
+.container--footer-down {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer-sign {
+	color: transparentize(#fff,.3);
+	font-size: 12px;
+}
+
+
+.nakitel-logo {
+	width: 15px;
+	height: 15px;
+	background-size: contain;
+}
