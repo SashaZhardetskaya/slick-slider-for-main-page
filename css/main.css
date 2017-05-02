@@ -658,7 +658,8 @@ header {
   width: 100%; }
 
 .slider-nav {
-  width: 350px;
+  width: 80%;
+  max-width: 350px;
   margin: auto;
   padding: 0;
   border-top: 2px solid rgba(255, 255, 255, 0.3);
