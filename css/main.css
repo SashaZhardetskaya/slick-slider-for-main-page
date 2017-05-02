@@ -670,7 +670,8 @@ header {
     position: relative;
     padding-top: 35px;
     line-height: 24px;
-    outline: none; }
+    outline: none;
+    cursor: pointer; }
   .slider-nav .slick-current.nav-text {
     top: -3px;
     border-top: 4px solid #f84e4a;

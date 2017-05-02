@@ -14,17 +14,16 @@ $(document).ready(function () {
 		slidesToShow: 1,
 		slidesToScroll: 1,
 		arrows: false,
-		fade: true,
+		fade: true, //cancil to slide left
 		asNavFor: '.js-slider-nav',
 		cssEase: 'ease-in',
-		focusOnSelect: true
+		draggable: false //can del if debug focusOnSelect
 	});
 	$('.js-slider-nav').slick({
 		slidesToShow: 4,
-		slidesToScroll: 1,
+		//slidesToScroll: 1,
 		arrows: false,
 		asNavFor: '.js-main-slider',
-		dots: true,
 		focusOnSelect: true,
 	});
     
